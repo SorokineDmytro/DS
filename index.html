@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="img/fontawesome-free-6.5.0-web/css/all.css">
+</head>
+<body>
+    <header>
+        <span class="name">DS</span>
+        <nav>
+            <ul class="nav_list">
+                <li class="nav_list-item"><a href="#about" class="nav_list-item_link">À propos</a></li>
+                <li class="nav_list-item"><a href="#portfolio" class="nav_list-item_link">Portfolio</a></li>
+                <li class="nav_list-item"><a href="#contacts" class="nav_list-item_link">Contacts</a></li>
+            </ul>
+        </nav>
+        <div id="menu-burger" class="menu-burger">
+            <span id ="burger-elem-top" class="burger-elem-closed"></span>
+            <span id ="burger-elem-mid" class="burger-elem-closed"></span>
+            <span id ="burger-elem-bot" class="burger-elem-closed"></span>
+          </div>
+    </header>
+    <body>
+        <ul id="nav_list" class="nav_list closed">
+            <li class="nav_list-item"><a href="#about" class="nav_list-item_link">À propos</a></li>
+            <li class="nav_list-item"><a href="#portfolio" class="nav_list-item_link">Portfolio</a></li>
+            <li class="nav_list-item"><a href="#contacts" class="nav_list-item_link">Contacts</a></li>
+          </ul>
+        <div class="wrapper gray">
+            <section class="home">
+                <div class="title-info">
+                    <h1>Bonjour, je suis Dmytro</h1>
+                    <span>Developpeur web</span>
+                </div>
+                <div class="photo-container"></div>
+            </section>
+        </div>
+        <div class="wrapper">
+            <section class="about" id="about">
+                <h2 class="about-invisible">À propos de moi</h2>
+                <div class="about-invisible">
+                    <p>Développeur web, passionné par l’informatique, dynamique et travailleur. J’ai une bonne maîtrise des outils de développement et je suis en constante recherche d’apprentissage.</p>
+                    <div class="cv-container">
+                        <a href="CV_SOROKINE_Dmytro.pdf" target="_blank" class="cv-btn">Voir mon CV</a>
+                        <a href="CV_SOROKINE_Dmytro.pdf" download="CV_SOROKINE_Dmytro" class="cv-btn">Telecharger mon CV</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="portfolio" id="portfolio">
+            <h2 class="portfolio-invisible">Portfolio</h2>
+            <div class="portfolio-container portfolio-invisible">
+                <div class="portfolio-item">
+                    <h3 class="portfolio-title">Système de gestion Commerciale</h3>
+                    <div class="portfolio-image"></div>
+                </div>
+                <div class="portfolio-item">
+                    <h3 class="portfolio-title">Système de gestion Clients</h3>
+                    <div class="portfolio-image"></div>
+                </div>
+                <div class="portfolio-item">
+                    <h3 class="portfolio-title">Site de E-commerce</h3>
+                    <div class="portfolio-image"></div>
+                </div>
+                <div class="portfolio-item">
+                    <h3 class="portfolio-title">Convertisseur d'heures</h3>
+                    <div class="portfolio-image"></div>
+                </div>
+            </div>
+        </section>
+        <div class="wrapper">
+            <section class="contacts" id="contacts">
+                <h2 class="contacts-invisible">Contacts</h2>
+                <div class="contacts-container contacts-invisible">
+                    <a href="https://www.linkedin.com/in/dmytro-sorokine-040536303/" target="_blank"><i class="fab fa-linkedin"></i><span>linkedin.com</span></a>
+                    <a href="https://github.com/SorokineDmytro" target="_blank"><i class="fab fa-github-square"></i><span>github.com</a>
+                    <a href="https://www.facebook.com/profile.php?id=100006073930186" target="_blank"><i class="fab fa-facebook-square"></i><span>facebook.com</span></a>
+                    <a href="mailto:sorokine.dimitri@gmail.com"><i class="fas fa-square-envelope"></i><span>@gmail.com</span></a>
+                    <a href="tel:06 03 30 46 70"><i class="fas fa-square-phone"></i><span>0603304670</span></a>
+                </div>
+            </section>
+            <a href="#" id="arrow" class="arrow"><i class="fas fa-circle-arrow-up"></i></a>
+        </div>
+    </body>
+    <footer>
+        Sorokine Dmytro &copy - 2024
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
