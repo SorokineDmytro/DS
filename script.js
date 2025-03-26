@@ -30,7 +30,7 @@ function scrollFunction () {
       });
     };
 
-    if (y > 1450) {
+    if (y > 1250) {
       arrContacts.forEach((elem) => {
         elem.classList.add("contacts-visible")
       });
