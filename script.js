@@ -2,6 +2,7 @@ function scrollFunction () {
     let y = window.scrollY;
     const arrow = document.getElementById("arrow");
     const arrAbout = Array.from(document.getElementsByClassName('about-invisible'));
+    const arrTechno = Array.from(document.getElementsByClassName('techno-invisible'));
     const arrPortfolio = Array.from(document.getElementsByClassName('portfolio-invisible'));
     const arrContacts = Array.from(document.getElementsByClassName('contacts-invisible'));
     if (y > 300) {
@@ -20,7 +21,17 @@ function scrollFunction () {
       });
     };
 
-    if (y > 650) {
+    if (y > 700) {
+      arrTechno.forEach((elem) => {
+        elem.classList.add("techno-visible");
+      });
+    } else {
+      arrTechno.forEach((elem) => {
+        elem.classList.remove("techno-visible")
+      });
+    };
+
+    if (y > 1550) {
       arrPortfolio.forEach((elem) => {
         elem.classList.add("portfolio-visible")
       });
@@ -30,7 +41,7 @@ function scrollFunction () {
       });
     };
 
-    if (y > 1250) {
+    if (y > 4700) {
       arrContacts.forEach((elem) => {
         elem.classList.add("contacts-visible")
       });

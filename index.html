@@ -16,6 +16,7 @@
         <nav>
             <ul class="nav_list">
                 <li class="nav_list-item"><a href="#about" class="nav_list-item_link">À propos</a></li>
+                <li class="nav_list-item"><a href="#techno" class="nav_list-item_link">Techno</a></li>
                 <li class="nav_list-item"><a href="#portfolio" class="nav_list-item_link">Portfolio</a></li>
                 <li class="nav_list-item"><a href="#contacts" class="nav_list-item_link">Contacts</a></li>
             </ul>
@@ -29,6 +30,7 @@
     <main>
         <ul id="nav_list" class="nav_list closed">
             <li class="nav_list-item"><a href="#about" class="nav_list-item_link">À propos</a></li>
+            <li class="nav_list-item"><a href="#techno" class="nav_list-item_link">Techno</a></li>
             <li class="nav_list-item"><a href="#portfolio" class="nav_list-item_link">Portfolio</a></li>
             <li class="nav_list-item"><a href="#contacts" class="nav_list-item_link">Contacts</a></li>
         </ul>
@@ -53,28 +55,90 @@
                 </div>
             </section>
         </div>
-        <section class="portfolio" id="portfolio">
-            <h2 class="portfolio-invisible">Portfolio</h2>
-            <div class="portfolio-container portfolio-invisible">
-                <article class="portfolio-item">
-                    <h3 class="portfolio-title">Convertisseur d'heures</h3>
-                    <div class="portfolio-image"></div>
-                </article>
-                <article class="portfolio-item">
-                    <h3 class="portfolio-title">Système de gestion commerciale</h3>
-                    <div class="portfolio-image"></div>
-                </article>
-                <article class="portfolio-item">
-                    <h3 class="portfolio-title">Système de gestion clients</h3>
-                    <div class="portfolio-image"></div>
-                </article>
-                <article class="portfolio-item">
-                    <h3 class="portfolio-title">Gestionnaire de finances privées</h3>
-                    <div class="portfolio-image"></div>
-                </article>
-            </div>
-        </section>
+        <div class="wrapper gray">
+            <section class="techno" id="techno">
+                <h2 class="techno-invisible">Stack technologique</h2>
+                <ul class="techno-container techno-invisible">
+                    <li class="techno-container-item"><img src="img/langs/html.svg" alt="image of html"><span>HTML</span></li>
+                    <li class="techno-container-item"><img src="img/langs/css.svg" alt="image of css"><span>CSS</span></li>
+                    <li class="techno-container-item"><img src="img/langs/sass.svg" alt="image of sass"><span>SASS</span></li>
+                    <li class="techno-container-item"><img src="img/langs/tailwind.svg" alt="image of tailwind"><span>TAILWIND</span></li>
+                    <li class="techno-container-item"><img src="img/langs/js.svg" alt="image of js"><span>JAVASCRIPT</span></li>
+                    <li class="techno-container-item"><img src="img/langs/vite.svg" alt="image of vite"><span>VITE</span></li>
+                    <li class="techno-container-item"><img src="img/langs/react.svg" alt="image of react"><span>REACT</span></li>
+                    <li class="techno-container-item"><img src="img/langs/nodejs.svg" alt="image of nodejs"><span>NODEJS</span></li>
+                    <li class="techno-container-item"><img src="img/langs/expressjs.png" alt="image of expressjs"><span>EXPRESSJS</span></li>
+                    <li class="techno-container-item"><img src="img/langs/python.svg" alt="image of python"><span>PYTHON</span></li>
+                    <li class="techno-container-item"><img src="img/langs/java.svg" alt="image of java"><span>JAVA</span></li>
+                    <li class="techno-container-item"><img src="img/langs/php.png" alt="image of php"><span>PHP</span></li>
+                    <li class="techno-container-item"><img src="img/langs/symfony.svg" alt="image of symfony"><span>SYMFONY</span></li>
+                    <li class="techno-container-item"><img src="img/langs/docker.svg" alt="image of docker"><span>DOCKER</span></li>
+                    <li class="techno-container-item"><img src="img/langs/postgresql.svg" alt="image of postgresql"><span>POSTGRESQL</span></li>
+                    <li class="techno-container-item"><img src="img/langs/mariadb.svg" alt="image of mariadb"><span>MARIA_DB</span></li>
+                    <li class="techno-container-item"><img src="img/langs/git.svg" alt="image of git"><span>GIT</span></li>
+                    <li class="techno-container-item"><img src="img/langs/github.svg" alt="image of github"><span>GITHUB</span></li>
+                </ul>
+            </section>
+        </div>
         <div class="wrapper">
+            <section class="portfolio" id="portfolio">
+                <h2 class="portfolio-invisible">Projets</h2>
+                <div class="portfolio-container portfolio-invisible">
+                    <article class="portfolio-item">
+                        <div class="portfolio-item-img">
+                            <div class="portfolio-image"></div>
+                        </div>
+                        <div class="portfolio-item-text">
+                            <h3 class="portfolio-title">Système de gestion clients</h3>
+                            <p>Partie frontend d’un système de gestion de personnel en HTML, CSS et JavaScript natif. </p>
+                            <a href="#" target="_blank" class="portfolio-item-link"><span>Voir sur Github</span></a>
+                        </div>
+                    </article>
+                    <article class="portfolio-item">
+                        <div class="portfolio-item-img">
+                            <div class="portfolio-image"></div>
+                        </div>
+                        <div class="portfolio-item-text">
+                            <h3 class="portfolio-title">Système de gestion commerciale</h3>
+                            <p>Application permettant la création et la gestion des produits, ainsi que le suivi des commandes et des clients. Développée avec un frontend en HTML, Bootstrap et JavaScript natif, et un backend en PHP natif connecté à MariaDB.</p>
+                            <a href="https://github.com/SorokineDmytro/DWWM" target="_blank" class="portfolio-item-link"><span>Voir sur Github</span></a>
+                        </div>
+                    </article>
+                    <article class="portfolio-item">
+                        <div class="portfolio-item-img">
+                            <div class="portfolio-image"></div>
+                        </div>
+                        <div class="portfolio-item-text">
+                            <h3 class="portfolio-title">Outil de gestion des finances personnelles</h3>
+                            <p>Application permettant d’ajouter et de gérer ses comptes, de catégoriser les opérations, et de générer des statistiques détaillées sur la période sélectionnée. Conçu selon le modèle MVC, avec un frontend en HTML, CSS et JavaScript natif (intégrant la bibliothèque Chart.js) et un backend en PHP natif orienté objet, connecté à une base de données PostgreSQL.</p>
+                            <a href="https://github.com/SorokineDmytro/Wallet" target="_blank" class="portfolio-item-link"><span>Voir sur Github</span></a>
+                        </div>
+                    </article>
+                    <article class="portfolio-item">
+                        <div class="portfolio-item-img">
+                            <div class="portfolio-image"></div>
+                        </div>
+                        <div class="portfolio-item-text">
+                            <h3 class="portfolio-title">Système de gestion du temps de travail du personnel</h3>
+                            <p>Application destinée à un restaurant situé à Marseille, permettant de préparer les plannings de travail, d’exporter les plannings hebdomadaires et mensuels au format PDF, ainsi que d’accumuler le temps de travail de chaque employé afin de générer des statistiques détaillées. Conçu selon le modèle MVC, développé avec Express.js et connecté à une base de données SQLite en local.</p>
+                            <a href="https://github.com/SorokineDmytro/lcb-crm" target="_blank" class="portfolio-item-link"><span>Voir sur Github</span></a>
+                        </div>
+                    </article>
+                    <article class="portfolio-item">
+                        <div class="portfolio-item-img">
+                            <div class="portfolio-image"></div>
+                        </div>
+                        <div class="portfolio-item-text">
+                            <h3 class="portfolio-title">Site e-commerce de vêtements (en production)</h3>
+                            <p>Application conçue sous forme de REST API, avec un frontend en React.js (utilisant Tailwind CSS et Vite) et un backend conteneurisé avec Docker et déployé sur un serveur Nginx. Développé avec Symfony et API Platform, intégrant OAuth2 pour l’authentification et une base de données PostgreSQL pour la gestion des données.</p>
+                            <a href="https://github.com/SorokineDmytro/FreshDrobe" target="_blank" class="portfolio-item-link"><span>Voir sur Github</span></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+        
+        <div class="wrapper gray">
             <section class="contacts" id="contacts">
                 <h2 class="contacts-invisible">Contacts</h2>
                 <div class="contacts-container contacts-invisible">
